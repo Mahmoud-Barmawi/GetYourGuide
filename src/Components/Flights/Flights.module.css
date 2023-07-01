@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none !important;
+}
+
+/*     font-family: 'Poppins', sans-serif;
+ */
+.titles h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #05203c;
+
+
+}
+
+.sendData {
+    /* background: linear-gradient(170deg, rgba(113, 188, 221,0.8), rgba(255, 69, 0, .28)); */
+    background: #05203c;
+    margin-top: 1.2rem;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1.09rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 35px;
+}
+
+.sendData p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 33px;
+    font-weight: 400;
+    color: rgb(210, 217, 235);
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer !important;
+}
+
+.Srccontent {
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.Srccontent i,
+.destcontent i,
+.daatee i {
+    color: var(--main-color);
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.Srccontent input,
+.destcontent input {
+    border: none;
+    margin-left: 2px;
+    outline: none !important;
+}
+
+.destcontent {
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    width: fit-content;
+    align-items: center;
+}
+
+::placeholder {
+    color: black;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.inpt {
+    display: inline-block;
+    color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 0.4rem !important;
+}
+
+.daatee {
+    width: fit-content;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.tripType {
+    padding: 5px;
+    background-color: white;
+    width: fit-content;
+}
+
+.tripType select {
+    padding: 5px;
+    font-weight: 500;
+    color: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 0%;
+}
+
+.tripType select option {
+    background-color: rgb(113, 188, 221);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.triprType {
+    padding: 5px;
+    background-color: white;
+    width: fit-content;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.triprType select {
+    padding: 5px;
+    font-weight: 500;
+    color: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 0%;
+}
+
+.triprType select option {
+    background-color: #71bcdd;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+input[type="date"] {
+    background-color: #f0f0f0;
+    color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    content: url('Paomedia-Small-N-Flat-Calendar.1024.png');
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+
+
+
+.classof_serv {
+    padding: 5px;
+    background-color: white;
+    width: fit-content;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.classof_serv select {
+    padding: 5px;
+    font-weight: 500;
+    color: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 0%;
+}
+
+.classof_serv select option {
+    background-color: rgb(113, 188, 221);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.inp_ad {
+    background-color: white;
+    width: fit-content;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.inp_ad i {
+    margin-left: 1rem;
+    color: var(--main-color);
+}
+
+.inp_sen {
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.inp_sen i {
+    margin-left: 1rem;
+    color: var(--main-color);
+}
+
+.inp_ad input,
+.inp_sen input {
+    margin-left: 4px;
+    border: none;
+    outline: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* CSS */
+.button_89 {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #f2f2f2;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 19px;
+
+    border: 0;
+    margin-top: 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button_89:hover,
+.button_89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button_89:active {
+    background: var(--color);
+    color: var(--main-color);
+}
+
+
+
+.flightsCont {
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    /* background: lightsteelblue; */
+    background-image: url(./chanas-hclTKUfuf1U-unsplash.jpg);
+    padding: 1rem;
+    margin-top: 3rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+.flightsCont:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.flightsDetails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.flightsTime {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width:993px) and (min-width:768px) {
+    .content {
+        transform: scale(0.79) !important;
+    }
+
+    .sendData {
+        width: 800px;
+        margin-left: -35px;
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:70px) {
+
+    .content {
+        flex-direction: column;
+        background: none;
+        align-items: center;
+    }
+
+
+    .Srccontent {
+        padding: 3px;
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+    }
+
+    .Srccontent i,
+    .destcontent i,
+    .daatee i {
+        margin: 0 3px;
+        font-size: 0.9rem;
+    }
+
+    .destcontent {
+        padding: 3px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+    }
+
+    .inp_ad {
+        padding: 3px;
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+    }
+
+    .inp_sen {
+        padding: 3px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+    }
+
+    .daatee {
+        padding: 3px;
+        background-color: transparent;
+        margin-bottom: 10px;
+        border-radius: 10px;
+
+    }
+
+    .tripType {
+        padding: 3px;
+        background-color: white;
+        width: fit-content;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+
+    }
+
+    .triprType {
+        padding: 3px;
+        background-color: white;
+        width: fit-content;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-radius: 10px;
+
+    }
+
+
+    .classof_serv {
+        padding: 3px;
+        background-color: white;
+        width: fit-content;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-bottom: 10px;
+        border-radius: 10px !important;
+    }
+
+}
+

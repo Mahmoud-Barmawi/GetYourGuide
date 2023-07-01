@@ -1,0 +1,448 @@
+/*     font-family: 'Poppins', sans-serif;*/
+.MainCard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto !important;
+    margin-top: 4rem !important;
+}
+.search {
+    margin-top: 20px;
+    border-radius: 20px;
+    background: url(./photo-1548574505-12caf0050b5b.avif);
+    background-position: center;
+    background-size: 100% contain;
+    height: 60vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif !important;
+    cursor: grabbing !important;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #f3f3f3;
+    margin-top: 2.6rem;
+}
+
+.searchContent {
+    margin-top: 4.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #030303;
+    background-color: white;
+    background-image: none;
+    cursor: grabbing !important;
+
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 1em;
+    background-color: #ff4500;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+.select:hover::after {
+    color: #f3f3f3;
+}
+
+option {
+    color: #030303;
+    cursor: grabbing !important;
+
+}
+
+option:hover {
+    background-color: red !important;
+    /* Change this to the desired color */
+    color: white !important;
+    /* Change this to the desired text color */
+}
+
+
+/* CSS */
+.button84 {
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(#ffffff, #f3f3f3);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #030303;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: expo-brand-demi, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: grabbing !important;
+
+}
+
+.button84:hover {
+    opacity: .85;
+}
+
+.button84:active {
+    outline: 0;
+}
+
+.button84:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+    .button84 {
+        height: 48px;
+    }
+}
+
+.cardCruises {
+    background-color: white !important;
+    width: 600px !important;
+    height: 260px !important;
+    margin: auto;
+    margin-top: 0px;
+    position: relative !important;
+    padding: 0px 10px 45px 10px !important;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.titt {
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white !important;
+    width: 600px !important;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.price_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    width: fit-content;
+    margin-top: 0px;
+    margin-top: 35px;
+}
+
+.price_logo img {
+    width: 80%;
+}
+
+.leftDet {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    position: absolute !important;
+    top: 2%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 4px;
+    justify-content: left;
+    overflow: hidden;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    transform: scale(.9);
+}
+
+.leftDet i {
+    color: #f7d36e;
+    font-size: 1rem;
+}
+
+.leftDet p {
+    text-align: left;
+}
+
+.subDiv {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    padding: 0;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) !important;
+    transition: all 0.1s;
+    cursor: grabbing;
+    Font-size: 19px;
+    Font-weight: 400;
+    Line-height: 26px;
+    color: rgb(36, 36, 36);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* width: 100% !important; */
+    height: 62% !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.hide-scroll {
+    overflow: hidden;
+    height: 100vh !important;
+}
+
+.subData {
+    padding: 3px 12rem;
+    width: revert;
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.subData span {
+    display: inline-block;
+    margin: 2px 28px 3px 16px;
+}
+
+.mark {
+    position: relative;
+}
+
+.mark i {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: grabbing;
+    font-size: 1rem;
+}
+
+
+/* CSS */
+.button57 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.button57 span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+}
+
+.button57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.button57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.button57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+/* style for the scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* style for the thumb */
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color, #ff4500);
+    border-radius: 10px;
+}
+@media  screen and (max-width:1399px) and (min-width:993px){
+    .MainCard{
+        transform: scale(0.89);
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 770px) {
+    .MainCard{
+        flex-direction: column;
+        width: 80%;
+        margin: auto !important;
+        margin-top: 4rem !important;
+    }
+    .searchContent{
+        transform: scale(.8);
+        transition: all .2s;
+    }
+}
+@media screen and (max-width: 769px) and (min-width: 490px) {
+    .MainCard{
+        flex-direction: column;
+        width: fit-content;
+        margin: auto !important;
+        margin-top: .8rem !important;
+        transform: scale(.68);
+        margin-left: -11% !important;
+    }
+    .leftDet{
+        left: 40% !important;
+    }
+    .searchContent{
+        transform: scale(.76);
+        margin-top: 40px !important;
+        transition: all .2s;
+    }
+}
+@media screen and (max-width: 489px) and (min-width: 390px) {
+    .MainCard{
+        flex-direction: column;
+        width: 70%;
+        margin: auto !important;
+        margin-top: 0rem !important;
+        transform: scale(.5);
+        margin-left: -7% !important;
+    }
+    .leftDet{
+        left: 40% !important;
+    }
+    .cardCruises{
+        overflow: hidden;
+    }
+    .searchContent{
+        transform: scale(.76);
+        margin-top: 40px !important;
+        transition: all .2s;
+        display: flex;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+}
+@media screen and (max-width: 389px) and (min-width: 150px) {
+    .MainCard{
+        flex-direction: column;
+        width: 100%;
+        margin: auto !important;
+        margin-top: 0rem !important;
+        transform: scale(.4);
+        margin-left: -23% !important;
+    }
+    .leftDet{
+        left: 40% !important;
+    }
+    .cardCruises{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .search{
+        background-position: center !important;
+    }
+    .searchContent{
+        transform: scale(.6);
+        margin-top: 40px !important;
+        transition: all .2s;
+        display: flex;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
